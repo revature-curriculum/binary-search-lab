@@ -1,23 +1,22 @@
 public class BinarySearch {
 
-    /** Lab Instructions:
-     *      Implement the search() method utilizing a Binary Search algorithm.
-     *      The method will be provided a sorted int array A and the int N to be found as parameters.
-     *      The index of the first occurrence of the element should be returned.
-     * 
-     *      If the element N cannot be found, the return value should be -1.
-     * 
-     *      It can be safely assumed that the input array A is sorted.
-     *
-     *      Be sure to be mindful of the array indices as ArrayIndexOutOfBoundsExceptions
-     *      are very common.
-     */
     public static int search(int[] A, int N){
- 
-        int elementIndex = -1;
+        
+        int Ans = 100; //Do not forget to change this line
+
        //TODO: Implement Binary Search here
 
-        return elementIndex;
+        return Ans;
     }
+    
+    //Main method to run your code
+    public static void main(String[] args) {
+        
+        //given array, 
+        //you could alter this array however you want
+        int[] arr = {1,2,3,3,4,6,6,7,9,11,24,55};
 
+        //Print out your solution here
+        System.out.println(search(arr, 7));
+    }
 }
